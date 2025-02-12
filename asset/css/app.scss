@@ -30,7 +30,7 @@ section {
     padding-top: 200px;
 }
 
-header, section:nth-child(even) {
+section:nth-child(even) {
     @extend .bg-gradient-magic-1;
     h1 {
         color: $custom-primary;
@@ -84,6 +84,7 @@ h3 {
 header {
     @extend .pb-3;
     @extend .text-white;
+    @extend .bg-gloss;
     
     .header-bar {
         @extend .d-flex, .justify-content-sm-center, .justify-content-md-end;
