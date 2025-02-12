@@ -12442,7 +12442,7 @@ header .navbar .nav-item:hover {
 }
 
 /* PRESENTATION */
-.presentation h1, .presentation .h1 {
+.presentation h2, .presentation .h2 {
   color: #05BFDB;
   letter-spacing: 2px;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;

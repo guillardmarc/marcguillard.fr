@@ -172,10 +172,10 @@ for(let [ville, contenu] of Object.entries(villes)){
 
     var circle = L.circle([lat, lon], {
         radius: 20000,         // Rayon en mètres
-        color: 'green',      // Couleur de la bordure
+        color: '#0A4D68',      // Couleur de la bordure
         weight: 3,           // Épaisseur de la bordure
-        fillColor: '#0f0',   // Couleur de remplissage
-        fillOpacity: 0.05     // Opacité du remplissage (0 à 1)
+        fillColor: '#fff',   // Couleur de remplissage
+        fillOpacity: 0.03     // Opacité du remplissage (0 à 1)
     }).addTo(map);
 }
 // On ajoute le calque permettant d'afficher les images de la carte
